@@ -7,10 +7,37 @@ import java.util.List;
  * Keyed on product identifier.
  * Type T is the product type.
  */
-public abstract class MarketDataService<T> extends Service<String, OrderBook<T>> {
-    // Get the best bid/offer order
-    public abstract BidOffer GetBestBidOffer(String productId);
+public class MarketDataService<T> extends Service<String, OrderBook<T>> {
 
-    // Aggregate the order book
-    public abstract OrderBook<T> AggregateDepth(String productId);
+
+    // Get the best bid/offer order
+    BidOffer GetBestBidOffer(String productId) {
+
+        return null;
+    }
+
+    OrderBook<T> AggregateDepth(String productId) {
+
+        return null;
+    }
+
+    @Override
+    public OrderBook<T> GetData(String key) {
+        return null;
+    }
+
+    @Override
+    public void OnMessage(OrderBook<T> data) {
+
+    }
+
+    @Override
+    public void AddListener(ServiceListener<OrderBook<T>> listener) {
+
+    }
+
+    @Override
+    public List<ServiceListener<OrderBook<T>>> GetListeners() {
+        return null;
+    }
 }
