@@ -7,30 +7,7 @@ import java.util.List;
  * Keyed on product identifier.
  * Type T is the product type.
  */
-public class PositionService<T> extends Service<String, Position<T>> {
-
+public abstract class PositionService<T> extends Service<String, Position<T>> {
     // Add a trade to the service
-    public void AddTrade(Trade<T> trade) {
-
-    }
-
-    @Override
-    public Position<T> GetData(String key) {
-        return null;
-    }
-
-    @Override
-    public void OnMessage(Position<T> data) {
-
-    }
-
-    @Override
-    public void AddListener(ServiceListener<Position<T>> listener) {
-
-    }
-
-    @Override
-    public List<ServiceListener<Position<T>>> GetListeners() {
-        return null;
-    }
+    public abstract void AddTrade(Trade<T> trade);
 }
