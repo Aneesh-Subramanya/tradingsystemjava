@@ -1,5 +1,6 @@
 package main.java;
 
+import main.enums.ProductType;
 import main.enums.Side;
 
 /**
@@ -11,12 +12,24 @@ public class Trade<T> {
     String tradeId;
     double price;
     String book;
-    long quantity;
+    double quantity;
     Side side;
 
-    public Trade(T product, String tradeId, double price, String book, long quantity, Side side) {
+    private static long counter = 1;
+
+    private String generateTradeId() {
+        if (product instanceof Product) {
+            ProductType type = ((Product) product).getProductType();
+            String tradeId = type + book + String.format("%25d", counter);
+            counter++;
+            return tradeId;
+        }
+        return null;
+    }
+
+    public Trade(T product, double price, String book, double quantity, Side side) {
         this.product = product;
-        this.tradeId = tradeId;
+        this.tradeId = generateTradeId();
         this.price = price;
         this.book = book;
         this.quantity = quantity;
@@ -55,11 +68,11 @@ public class Trade<T> {
         this.book = book;
     }
 
-    public long getQuantity() {
+    public double getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(long quantity) {
+    public void setQuantity(double quantity) {
         this.quantity = quantity;
     }
 

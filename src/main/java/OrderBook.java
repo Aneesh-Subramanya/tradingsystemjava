@@ -1,5 +1,7 @@
 package main.java;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -39,5 +41,13 @@ public class OrderBook<T> {
 
     public void setOfferStack(List<Order> offerStack) {
         this.offerStack = offerStack;
+    }
+
+    // Returns the best bid/offer
+    public BidOffer GetBidOffer() {
+        Order bestBid = Collections.max(bidStack, Comparator.comparing(Order::getPrice));
+        Order bestOffer = Collections.max(offerStack, Comparator.comparing(Order::getPrice));
+
+        return new BidOffer(bestBid, bestOffer);
     }
 }
