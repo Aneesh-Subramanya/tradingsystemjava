@@ -12,7 +12,7 @@ public class Trade<T> {
     String tradeId;
     double price;
     String book;
-    double quantity;
+    long quantity;
     Side side;
 
     private static long counter = 1;
@@ -27,7 +27,7 @@ public class Trade<T> {
         return null;
     }
 
-    public Trade(T product, double price, String book, double quantity, Side side) {
+    public Trade(T product, double price, String book, long quantity, Side side) {
         this.product = product;
         this.tradeId = generateTradeId();
         this.price = price;
@@ -68,11 +68,11 @@ public class Trade<T> {
         this.book = book;
     }
 
-    public double getQuantity() {
+    public long getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(double quantity) {
+    public void setQuantity(long quantity) {
         this.quantity = quantity;
     }
 

@@ -50,7 +50,7 @@ public class AlgoExecutionService<T> extends Service<String, AlgoExecution<T>> {
                         OrderType.MARKET,
                         order.getPrice(),
                         order.getQuantity(),
-                        0.0,
+                        0,
                         null,
                         false
                 );

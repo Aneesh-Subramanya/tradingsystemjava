@@ -13,12 +13,12 @@ public class ExecutionOrder<T> {
     private String orderId;
     private OrderType orderType;
     private double price;
-    private double visibleQuantity;
-    private double hiddenQuantity;
+    private long visibleQuantity;
+    private long hiddenQuantity;
     private String parentOrderId;
     private boolean isChildOrder;
 
-    public ExecutionOrder(T product, PricingSide side, String orderId, OrderType orderType, double price, double visibleQuantity, double hiddenQuantity, String parentOrderId, boolean isChildOrder) {
+    public ExecutionOrder(T product, PricingSide side, String orderId, OrderType orderType, double price, long visibleQuantity, long hiddenQuantity, String parentOrderId, boolean isChildOrder) {
         this.product = product;
         this.side = side;
         this.orderId = orderId;
@@ -70,19 +70,19 @@ public class ExecutionOrder<T> {
         this.price = price;
     }
 
-    public double getVisibleQuantity() {
+    public long getVisibleQuantity() {
         return visibleQuantity;
     }
 
-    public void setVisibleQuantity(double visibleQuantity) {
+    public void setVisibleQuantity(long visibleQuantity) {
         this.visibleQuantity = visibleQuantity;
     }
 
-    public double getHiddenQuantity() {
+    public long getHiddenQuantity() {
         return hiddenQuantity;
     }
 
-    public void setHiddenQuantity(double hiddenQuantity) {
+    public void setHiddenQuantity(long hiddenQuantity) {
         this.hiddenQuantity = hiddenQuantity;
     }
 

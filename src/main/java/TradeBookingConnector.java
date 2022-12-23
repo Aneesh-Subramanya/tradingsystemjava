@@ -45,7 +45,7 @@ public class TradeBookingConnector<T> extends Connector<Trade<T>> {
                 productId = parts[0];
                 String book = parts[1];
                 Side side = Side.valueOf(parts[2]);
-                double quantity = Double.parseDouble(parts[3]);
+                long quantity = Long.parseLong(parts[3]);
                 double price = UtilFunctions.convertToDecimalPrice(parts[4]);
 
                 Product bond = Bond.GetBond(productId);

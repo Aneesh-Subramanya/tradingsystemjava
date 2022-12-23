@@ -20,4 +20,7 @@ public class UtilConstants {
     public static final double ONE_32 = 1.0 / 32.0;
     public static final double ONE_128 = 1.0 / 128.0;
     public static final double ONE_256 = 1.0 / 256.0;
+
+    // Quote price - Constant for now but it should ideally come from a trader.
+    public static final double TRADER_QUOTE_PRICE = 100.0;
 }
