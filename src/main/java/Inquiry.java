@@ -12,10 +12,10 @@ public class Inquiry<T> {
     private T product;
     private Side side;
     private long quantity;
-    private double price;
+    private Double price;
     private InquiryState state;
 
-    public Inquiry(String inquiryId, T product, Side side, long quantity, double price, InquiryState state) {
+    public Inquiry(String inquiryId, T product, Side side, long quantity, Double price, InquiryState state) {
         this.inquiryId = inquiryId;
         this.product = product;
         this.side = side;
@@ -56,11 +56,11 @@ public class Inquiry<T> {
         this.quantity = quantity;
     }
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 

@@ -1,5 +1,7 @@
 package main.java;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -9,29 +11,9 @@ import java.util.Map;
  * Type T is the product type.
  */
 public class StreamingService<T> extends Service<String, PriceStream<T>> {
-    private Map<String, PriceStream<T>> streamMap;
-    private List<ServiceListener<PriceStream<T>>> listeners;
+    private final Map<String, PriceStream<T>> streamMap = new HashMap<>();
+    private final List<ServiceListener<PriceStream<T>>> listeners = new ArrayList<>();
 
-    public StreamingService(Map<String, PriceStream<T>> streamMap, List<ServiceListener<PriceStream<T>>> listeners) {
-        this.streamMap = streamMap;
-        this.listeners = listeners;
-    }
-
-    public Map<String, PriceStream<T>> getStreamMap() {
-        return streamMap;
-    }
-
-    public void setStreamMap(Map<String, PriceStream<T>> streamMap) {
-        this.streamMap = streamMap;
-    }
-
-    public List<ServiceListener<PriceStream<T>>> getListeners() {
-        return listeners;
-    }
-
-    public void setListeners(List<ServiceListener<PriceStream<T>>> listeners) {
-        this.listeners = listeners;
-    }
 
     // Publish two-way prices
     void PublishPrice(PriceStream<T> data) {

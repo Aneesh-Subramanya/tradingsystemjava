@@ -1,8 +1,11 @@
 package main.java;
 
 public class HistoricalInquiryServiceListener<T> extends ServiceListener<Inquiry<T>> {
+    HistoricalInquiryService<T> service;
 
-    HistoricalinquiryService<T> service;
+    public HistoricalInquiryServiceListener(HistoricalInquiryService<T> service) {
+        this.service = service;
+    }
 
     @Override
     public void ProcessAdd(Inquiry<T> data) {

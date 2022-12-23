@@ -1,5 +1,7 @@
 package main.java;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -9,29 +11,9 @@ import java.util.Map;
  * Type T is the product type.
  */
 public class TradeBookingService<T> extends Service<String, Trade<T>> {
-    private Map<String, Trade<T>> tradeMap;
-    private List<ServiceListener<Trade<T>>> listeners;
+    private final Map<String, Trade<T>> tradeMap = new HashMap<>();
+    private final List<ServiceListener<Trade<T>>> listeners = new ArrayList<>();
 
-    public TradeBookingService(Map<String, Trade<T>> tradeMap, List<ServiceListener<Trade<T>>> listeners) {
-        this.tradeMap = tradeMap;
-        this.listeners = listeners;
-    }
-
-    public Map<String, Trade<T>> getTradeMap() {
-        return tradeMap;
-    }
-
-    public void setTradeMap(Map<String, Trade<T>> tradeMap) {
-        this.tradeMap = tradeMap;
-    }
-
-    public List<ServiceListener<Trade<T>>> getListeners() {
-        return listeners;
-    }
-
-    public void setListeners(List<ServiceListener<Trade<T>>> listeners) {
-        this.listeners = listeners;
-    }
 
     // Book the trade
     void BookTrade(Trade<T> trade) {

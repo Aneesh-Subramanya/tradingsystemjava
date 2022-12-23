@@ -1,5 +1,7 @@
 package main.java;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -9,29 +11,9 @@ import java.util.Map;
  * Type T is the product type.
  */
 public class MarketDataService<T> extends Service<String, OrderBook<T>> {
-    private Map<String, OrderBook<T>> orderBookMap;
-    private List<ServiceListener<OrderBook<T>>> listeners;
+    private final Map<String, OrderBook<T>> orderBookMap = new HashMap<>();
+    private final List<ServiceListener<OrderBook<T>>> listeners = new ArrayList<>();
 
-    public MarketDataService(Map<String, OrderBook<T>> orderBookMap, List<ServiceListener<OrderBook<T>>> listeners) {
-        this.orderBookMap = orderBookMap;
-        this.listeners = listeners;
-    }
-
-    public Map<String, OrderBook<T>> getOrderBookMap() {
-        return orderBookMap;
-    }
-
-    public void setOrderBookMap(Map<String, OrderBook<T>> orderBookMap) {
-        this.orderBookMap = orderBookMap;
-    }
-
-    public List<ServiceListener<OrderBook<T>>> getListeners() {
-        return listeners;
-    }
-
-    public void setListeners(List<ServiceListener<OrderBook<T>>> listeners) {
-        this.listeners = listeners;
-    }
 
     // Get the best bid/offer order
     BidOffer GetBestBidOffer(String productId) {

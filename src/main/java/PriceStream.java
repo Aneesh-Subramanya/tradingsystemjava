@@ -38,4 +38,20 @@ public class PriceStream<T> {
     public void setOfferOrder(PriceStreamOrder offerOrder) {
         this.offerOrder = offerOrder;
     }
+
+    @Override
+    public String toString() {
+        if (product instanceof Bond) {
+            return "PriceStream{" +
+                    "productId=" + ((Bond) product).getProductId() +
+                    ", bidOrder=" + bidOrder +
+                    ", offerOrder=" + offerOrder +
+                    '}';
+        }
+        return "PriceStream{" +
+                "product=" + product +
+                ", bidOrder=" + bidOrder +
+                ", offerOrder=" + offerOrder +
+                '}';
+    }
 }

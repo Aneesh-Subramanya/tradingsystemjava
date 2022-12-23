@@ -2,34 +2,15 @@ package main.java;
 
 import main.enums.PricingSide;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class AlgoStreamingService<T> extends Service<String, AlgoStream<T>> {
     private static long counter = 0;
-    private Map<String, AlgoStream<T>> algoStreamMap;
-    private List<ServiceListener<AlgoStream<T>>> listeners;
-
-    public AlgoStreamingService(Map<String, AlgoStream<T>> algoStreamMap, List<ServiceListener<AlgoStream<T>>> listeners) {
-        this.algoStreamMap = algoStreamMap;
-        this.listeners = listeners;
-    }
-
-    public Map<String, AlgoStream<T>> getAlgoStreamMap() {
-        return algoStreamMap;
-    }
-
-    public void setAlgoStreamMap(Map<String, AlgoStream<T>> algoStreamMap) {
-        this.algoStreamMap = algoStreamMap;
-    }
-
-    public List<ServiceListener<AlgoStream<T>>> getListeners() {
-        return listeners;
-    }
-
-    public void setListeners(List<ServiceListener<AlgoStream<T>>> listeners) {
-        this.listeners = listeners;
-    }
+    private final Map<String, AlgoStream<T>> algoStreamMap = new HashMap<>();
+    private final List<ServiceListener<AlgoStream<T>>> listeners = new ArrayList<>();
 
     public void addStream(Price<T> data) {
         T product = data.getProduct();

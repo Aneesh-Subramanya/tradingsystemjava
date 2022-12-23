@@ -101,4 +101,32 @@ public class ExecutionOrder<T> {
     public void setChildOrder(boolean childOrder) {
         isChildOrder = childOrder;
     }
+
+    @Override
+    public String toString() {
+        if (product instanceof Bond) {
+            return "ExecutionOrder{" +
+                    "productId=" + ((Bond) product).getProductId() +
+                    ", side=" + side +
+                    ", orderId='" + orderId + '\'' +
+                    ", orderType=" + orderType +
+                    ", price=" + price +
+                    ", visibleQuantity=" + visibleQuantity +
+                    ", hiddenQuantity=" + hiddenQuantity +
+                    ", parentOrderId='" + parentOrderId + '\'' +
+                    ", isChildOrder=" + isChildOrder +
+                    '}';
+        }
+        return "ExecutionOrder{" +
+                "productType=" + product +
+                ", side=" + side +
+                ", orderId='" + orderId + '\'' +
+                ", orderType=" + orderType +
+                ", price=" + price +
+                ", visibleQuantity=" + visibleQuantity +
+                ", hiddenQuantity=" + hiddenQuantity +
+                ", parentOrderId='" + parentOrderId + '\'' +
+                ", isChildOrder=" + isChildOrder +
+                '}';
+    }
 }

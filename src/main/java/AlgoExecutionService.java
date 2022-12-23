@@ -4,14 +4,16 @@ import main.constants.UtilConstants;
 import main.enums.OrderType;
 import main.enums.PricingSide;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class AlgoExecutionService<T> extends Service<String, AlgoExecution<T>> {
     private static Long orderId = 1L;
-    private Map<String, AlgoExecution<T>> algoExecutionMap;
+    private final Map<String, AlgoExecution<T>> algoExecutionMap = new HashMap<>();
+    private final List<ServiceListener<AlgoExecution<T>>> listeners = new ArrayList<>();
     private PricingSide side = PricingSide.BID;
-    private List<ServiceListener<AlgoExecution<T>>> listeners;
 
     @Override
     public AlgoExecution<T> GetData(String key) {

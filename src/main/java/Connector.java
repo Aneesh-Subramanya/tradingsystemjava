@@ -25,7 +25,5 @@ public abstract class Connector<V> {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 }

@@ -5,11 +5,11 @@ import main.utils.UtilFunctions;
 
 import java.util.Random;
 
-public class TradeBookingListener<T> extends ServiceListener<ExecutionOrder<T>> {
+public class TradeBookingServiceListener<T> extends ServiceListener<ExecutionOrder<T>> {
     private TradeBookingService<T> tradeBookingService;
     private static final Random RANDOM = new Random();
 
-    public TradeBookingListener(TradeBookingService<T> tradeBookingService) {
+    public TradeBookingServiceListener(TradeBookingService<T> tradeBookingService) {
         this.tradeBookingService = tradeBookingService;
     }
 

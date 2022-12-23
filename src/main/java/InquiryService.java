@@ -2,6 +2,8 @@ package main.java;
 
 import main.enums.InquiryState;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -11,32 +13,9 @@ import java.util.Map;
  * Type T is the product type.
  */
 public class InquiryService<T> extends Service<String, Inquiry<T>> {
-    private Map<String, Inquiry<T>> inquiryMap;
-    private List<ServiceListener<Inquiry<T>>> listeners;
+    private final Map<String, Inquiry<T>> inquiryMap = new HashMap<>();
+    private final List<ServiceListener<Inquiry<T>>> listeners = new ArrayList<>();
     private InquiryServiceConnector<T> connector;
-
-
-    public InquiryService(Map<String, Inquiry<T>> inquiryMap, List<ServiceListener<Inquiry<T>>> listeners, InquiryServiceConnector<T> connector) {
-        this.inquiryMap = inquiryMap;
-        this.listeners = listeners;
-        this.connector = connector;
-    }
-
-    public Map<String, Inquiry<T>> getInquiryMap() {
-        return inquiryMap;
-    }
-
-    public void setInquiryMap(Map<String, Inquiry<T>> inquiryMap) {
-        this.inquiryMap = inquiryMap;
-    }
-
-    public List<ServiceListener<Inquiry<T>>> getListeners() {
-        return listeners;
-    }
-
-    public void setListeners(List<ServiceListener<Inquiry<T>>> listeners) {
-        this.listeners = listeners;
-    }
 
     public InquiryServiceConnector<T> getConnector() {
         return connector;

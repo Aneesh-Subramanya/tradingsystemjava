@@ -2,10 +2,10 @@ package main.java;
 
 import java.util.List;
 
-public class HistoricalinquiryService<T> extends HistoricalDataService<T> {
+public class HistoricalInquiryService<T> extends HistoricalDataService<T> {
     Connector<Inquiry<T>> connector;
 
-    public HistoricalinquiryService(Connector<Inquiry<T>> connector) {
+    public HistoricalInquiryService(Connector<Inquiry<T>> connector) {
         this.connector = connector;
     }
 

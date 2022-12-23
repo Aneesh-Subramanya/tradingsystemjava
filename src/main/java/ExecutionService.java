@@ -2,6 +2,8 @@ package main.java;
 
 import main.enums.Market;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -12,29 +14,9 @@ import java.util.Map;
  */
 public class ExecutionService<T> extends Service<String, ExecutionOrder<T>> {
 
-    private Map<String, ExecutionOrder<T>> executionOrderMap;
-    private List<ServiceListener<ExecutionOrder<T>>> listeners;
-
-    public ExecutionService(Map<String, ExecutionOrder<T>> executionOrderMap, List<ServiceListener<ExecutionOrder<T>>> listeners) {
-        this.executionOrderMap = executionOrderMap;
-        this.listeners = listeners;
-    }
-
-    public Map<String, ExecutionOrder<T>> getExecutionOrderMap() {
-        return executionOrderMap;
-    }
-
-    public void setExecutionOrderMap(Map<String, ExecutionOrder<T>> executionOrderMap) {
-        this.executionOrderMap = executionOrderMap;
-    }
-
-    public List<ServiceListener<ExecutionOrder<T>>> getListeners() {
-        return listeners;
-    }
-
-    public void setListeners(List<ServiceListener<ExecutionOrder<T>>> listeners) {
-        this.listeners = listeners;
-    }
+    private final Map<String, ExecutionOrder<T>> executionOrderMap = new HashMap<>();
+    private final List<ServiceListener<ExecutionOrder<T>>> listeners = new ArrayList<>();
+    private final Connector<ExecutionOrder<T>> connector = new ExecutionServiceConnector<T>();
 
     public void ExecuteOrder(ExecutionOrder<T> data, Market market) {
         T product = data.getProduct();
@@ -55,6 +37,7 @@ public class ExecutionService<T> extends Service<String, ExecutionOrder<T>> {
         for (ServiceListener<ExecutionOrder<T>> listener : listeners) {
             listener.ProcessAdd(data);
         }
+        connector.Publish(data);
     }
 
     @Override

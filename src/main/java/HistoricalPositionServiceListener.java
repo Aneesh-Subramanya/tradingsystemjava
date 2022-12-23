@@ -1,8 +1,11 @@
 package main.java;
 
 public class HistoricalPositionServiceListener<T> extends ServiceListener<Position<T>> {
-
     HistoricalPositionService<T> service;
+
+    public HistoricalPositionServiceListener(HistoricalPositionService<T> service) {
+        this.service = service;
+    }
 
     @Override
     public void ProcessAdd(Position<T> data) {

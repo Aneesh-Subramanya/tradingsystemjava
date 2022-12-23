@@ -11,7 +11,7 @@ public abstract class Service<K, V> {
     public abstract V GetData(K key);
 
     // The callback that a Connector should invoke for any new or updated data
-    public abstract void OnMessage(V data);
+    public abstract void OnMessage(V data) throws InterruptedException;
 
     // Add a listener to the Service for callbacks on add, remove, and update events
     // for data to the Service.

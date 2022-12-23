@@ -1,8 +1,11 @@
 package main.java;
 
 public class HistoricalStreamingServiceListener<T> extends ServiceListener<PriceStream<T>> {
-
     HistoricalStreamingService<T> service;
+
+    public HistoricalStreamingServiceListener(HistoricalStreamingService<T> service) {
+        this.service = service;
+    }
 
     @Override
     public void ProcessAdd(PriceStream<T> data) {

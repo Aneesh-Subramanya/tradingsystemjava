@@ -1,8 +1,11 @@
 package main.java;
 
 public class HistoricalRiskServiceListener<T> extends ServiceListener<PV01<T>> {
-
     HistoricalRiskService<T> service;
+
+    public HistoricalRiskServiceListener(HistoricalRiskService<T> service) {
+        this.service = service;
+    }
 
     @Override
     public void ProcessAdd(PV01<T> data) {
