@@ -4,8 +4,18 @@ import main.constants.UtilConstants;
 import main.enums.PricingSide;
 import main.enums.Side;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Arrays;
+import java.util.List;
+
 public class UtilFunctions {
-    public static String convertToBondPrice(double decimalPrice) {
+    public static String convertToBondPrice(Double decimalPrice) {
+        if (decimalPrice == null) {
+            return "";
+        }
+
         int pct = (int) Math.floor(decimalPrice);
         String PCT = String.valueOf(pct);
 
@@ -48,5 +58,26 @@ public class UtilFunctions {
                 return Side.SELL;
         }
         return null;
+    }
+
+    public static void clearOutputFiles() {
+        List<String> outputFiles = Arrays.asList(
+                UtilConstants.HISTORICAL_EXECUTIONS_FILE,
+                UtilConstants.HISTORICAL_ALLINQUIRIES_FILE,
+                UtilConstants.HISTORICAL_POSITIONS_FILE,
+                UtilConstants.HISTORICAL_RISK_FILE,
+                UtilConstants.HISTORICAL_STREAMING_FILE,
+                UtilConstants.GUIFILE,
+                UtilConstants.EXECUTIONSERVICEFILE,
+                UtilConstants.STREAMINGSERVICEFILE
+        );
+
+        for (String outputFile : outputFiles) {
+            try {
+                Files.deleteIfExists(Path.of(outputFile));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 }
