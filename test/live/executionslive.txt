@@ -1,0 +1,216 @@
+Dec 24, 2022 3:00:57 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD1', orderType=MARKET, price=98-317, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:00:57 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD2', orderType=MARKET, price=99-007, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:00:58 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD3', orderType=MARKET, price=99-006, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:00:58 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD4', orderType=MARKET, price=99-016, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:00:58 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD5', orderType=MARKET, price=99-015, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:00:59 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD6', orderType=MARKET, price=99-025, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:00:59 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD7', orderType=MARKET, price=99-02+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:00:59 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD8', orderType=MARKET, price=99-03+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:00 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD9', orderType=MARKET, price=99-033, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:00 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD10', orderType=MARKET, price=99-043, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:00 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD11', orderType=MARKET, price=99-042, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:00 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD12', orderType=MARKET, price=99-052, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:01 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD13', orderType=MARKET, price=99-051, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:01 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD14', orderType=MARKET, price=99-061, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:01 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD15', orderType=MARKET, price=99-060, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:02 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD16', orderType=MARKET, price=99-070, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:02 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD17', orderType=MARKET, price=99-067, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:02 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD18', orderType=MARKET, price=99-077, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:03 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD19', orderType=MARKET, price=99-076, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:03 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD20', orderType=MARKET, price=99-086, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:03 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD21', orderType=MARKET, price=99-085, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:04 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD22', orderType=MARKET, price=99-095, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:04 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD23', orderType=MARKET, price=99-09+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:04 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD24', orderType=MARKET, price=99-10+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:05 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD25', orderType=MARKET, price=99-103, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:05 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD26', orderType=MARKET, price=99-113, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:05 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD27', orderType=MARKET, price=99-112, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:05 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD28', orderType=MARKET, price=99-122, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:06 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD29', orderType=MARKET, price=99-121, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:06 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD30', orderType=MARKET, price=99-131, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:06 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD31', orderType=MARKET, price=99-130, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:07 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD32', orderType=MARKET, price=99-140, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:07 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD33', orderType=MARKET, price=99-137, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:07 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD34', orderType=MARKET, price=99-147, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:08 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD35', orderType=MARKET, price=99-146, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:08 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD36', orderType=MARKET, price=99-156, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:08 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD37', orderType=MARKET, price=99-155, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:09 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD38', orderType=MARKET, price=99-165, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:09 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD39', orderType=MARKET, price=99-16+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:09 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD40', orderType=MARKET, price=99-17+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:10 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD41', orderType=MARKET, price=99-173, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:10 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD42', orderType=MARKET, price=99-183, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:10 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD43', orderType=MARKET, price=99-182, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:10 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD44', orderType=MARKET, price=99-192, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:11 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD45', orderType=MARKET, price=99-191, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:11 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD46', orderType=MARKET, price=99-201, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:11 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD47', orderType=MARKET, price=99-200, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:12 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD48', orderType=MARKET, price=99-210, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:12 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD49', orderType=MARKET, price=99-207, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:12 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD50', orderType=MARKET, price=99-217, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:13 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD51', orderType=MARKET, price=99-216, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:13 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD52', orderType=MARKET, price=99-226, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:13 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD53', orderType=MARKET, price=99-225, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:14 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD54', orderType=MARKET, price=99-235, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:14 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD55', orderType=MARKET, price=99-23+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:14 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD56', orderType=MARKET, price=99-24+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:14 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD57', orderType=MARKET, price=99-243, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:15 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD58', orderType=MARKET, price=99-253, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:15 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD59', orderType=MARKET, price=99-252, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:15 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD60', orderType=MARKET, price=99-262, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:16 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD61', orderType=MARKET, price=99-261, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:16 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD62', orderType=MARKET, price=99-271, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:16 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD63', orderType=MARKET, price=99-270, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:17 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD64', orderType=MARKET, price=99-280, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:17 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD65', orderType=MARKET, price=99-277, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:17 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD66', orderType=MARKET, price=99-287, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:18 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD67', orderType=MARKET, price=99-286, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:18 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD68', orderType=MARKET, price=99-296, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:18 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD69', orderType=MARKET, price=99-295, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:18 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD70', orderType=MARKET, price=99-305, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:19 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD71', orderType=MARKET, price=99-30+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:19 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD72', orderType=MARKET, price=99-31+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:19 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD73', orderType=MARKET, price=99-313, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:20 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD74', orderType=MARKET, price=100-003, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:20 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD75', orderType=MARKET, price=100-002, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:20 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD76', orderType=MARKET, price=100-012, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:21 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD77', orderType=MARKET, price=100-011, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:21 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD78', orderType=MARKET, price=100-021, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:21 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD79', orderType=MARKET, price=100-020, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:22 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD80', orderType=MARKET, price=100-030, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:22 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD81', orderType=MARKET, price=100-027, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:22 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD82', orderType=MARKET, price=100-037, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:22 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD83', orderType=MARKET, price=100-036, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:23 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD84', orderType=MARKET, price=100-046, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:23 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD85', orderType=MARKET, price=100-045, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:23 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD86', orderType=MARKET, price=100-055, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:24 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD87', orderType=MARKET, price=100-05+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:24 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD88', orderType=MARKET, price=100-06+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:24 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD89', orderType=MARKET, price=100-063, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:25 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD90', orderType=MARKET, price=100-073, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:25 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD91', orderType=MARKET, price=100-072, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:25 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD92', orderType=MARKET, price=100-082, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:26 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD93', orderType=MARKET, price=100-081, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:26 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD94', orderType=MARKET, price=100-091, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:26 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD95', orderType=MARKET, price=100-090, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:27 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD96', orderType=MARKET, price=100-100, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:27 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD97', orderType=MARKET, price=100-097, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:27 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD98', orderType=MARKET, price=100-107, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:27 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD99', orderType=MARKET, price=100-106, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:28 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD100', orderType=MARKET, price=100-116, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:28 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD101', orderType=MARKET, price=100-115, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:28 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD102', orderType=MARKET, price=100-125, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:29 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD103', orderType=MARKET, price=100-12+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:29 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD104', orderType=MARKET, price=100-13+, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:29 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD105', orderType=MARKET, price=100-133, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:30 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD106', orderType=MARKET, price=100-143, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:30 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=BID, orderId='ORD107', orderType=MARKET, price=100-142, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
+Dec 24, 2022 3:01:30 AM main.java.subscribers.ExecutionServiceSubscriber Subscribe
+INFO: ExecutionService: ExecutionOrder{productId=91282CFX4, side=OFFER, orderId='ORD108', orderType=MARKET, price=100-152, visibleQuantity=10000000, hiddenQuantity=0, parentOrderId='null', isChildOrder=false}
